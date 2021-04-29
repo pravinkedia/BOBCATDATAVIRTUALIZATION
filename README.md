@@ -16,7 +16,9 @@ WHERE E.WORKDEPT = D.DEPTNO and D.MGRNO=M.EMPNO
 
 
 select * from DVUC.BILLING_DB2WH;
+
 select * from DVUC.PRODUCTS_DB2WH;
+
 select * from DVUC.CUSTOMER_SERVICE_DB2WH;
 
 
