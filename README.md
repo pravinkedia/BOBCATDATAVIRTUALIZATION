@@ -2,7 +2,11 @@
 
 #### LOAD Data in DB2 WH
 
+Use Instructions from DataVirtualization_LAB1.doc file
+
 #### Virtualize tables in Data Virtualization for 3 tables in your own schema with above 3 load files
+
+Use Instructions from DataVirtualization_LAB2.doc file
 
 #### Join tables to check the DV results
 
