@@ -2,7 +2,7 @@
 
 ### LOAD Data in DB2 WH
 
-### Virtualize tables in Data Virtualization for above 3 tables
+### Virtualize tables in Data Virtualization for 3 tables in your own schema with above 3 load files
 
 ### Join tables to check the DV results
 
