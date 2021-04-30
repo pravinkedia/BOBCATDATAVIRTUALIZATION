@@ -24,5 +24,6 @@ Use Instructions from DataVirtualization_DB2WH_DB2Cloud_VT_LAB2.docx file
         
         select B.*, P.* from DEV3.BILLING_DB2WH B, PRAVIN.PRODUCTS_DB2CLOUD P WHERE B.CUSTOMERID = P."customerID";
 
+        select B.CUSTOMERID, CONTRACT, PAPERLESSBILLING, PAYMENTMETHOD, MONTHLYCHARGES, TOTALCHARGES, CHURN, "PhoneService", "MultipleLines", "StreamingTV", "StreamingMovies" from DEV3.BILLING_DB2WH B, PRAVIN.PRODUCTS_DB2CLOUD P WHERE B.CUSTOMERID = P."customerID";
 
 
