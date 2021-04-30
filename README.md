@@ -29,7 +29,9 @@ Use Instructions from DataVirtualization_Cache_LAB3.docx file
         select B.*, P.* from DEV3.BILLING_DB2WH B, PRAVIN.PRODUCTS_DB2CLOUD P WHERE B.CUSTOMERID = P."customerID";
 
         select B.CUSTOMERID, CONTRACT, PAPERLESSBILLING, PAYMENTMETHOD, MONTHLYCHARGES, TOTALCHARGES, CHURN, "PhoneService", "MultipleLines", "StreamingTV", "StreamingMovies" from DEV3.BILLING_DB2WH B, PRAVIN.PRODUCTS_DB2CLOUD P WHERE B.CUSTOMERID = P."customerID";
-        
+
+##### We created the Cache for the below query
+
         select CUSTOMERID, CONTRACT, PAPERLESSBILLING, PAYMENTMETHOD, MONTHLYCHARGES, TOTALCHARGES, CHURN, "PhoneService", "MultipleLines", "StreamingTV", "StreamingMovies" from DEV3.BILLING_DB2WH , PRAVIN.PRODUCTS_DB2CLOUD  WHERE CUSTOMERID = "customerID";
 
 
