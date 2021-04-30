@@ -12,6 +12,10 @@ Use Instructions from DataVirtualization_DB2WH_DB2Cloud_VT_LAB2.docx file
 
 Use Instructions from DataVirtualization_Cache_LAB3.docx file
 
+#### Join tables, Publish to Catalog and Assign to Projects
+
+Use Instructions from DataVirtualization_Join_irtualized_data_Lab4.docx file
+
 #### Join tables to check the DV results
 
         select E.*,D.DEPTNAME, D.MGRNO, M.FIRSTNME,M.MIDINIT, M.LASTNAME 
