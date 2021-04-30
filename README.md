@@ -14,13 +14,17 @@ select E.*,D.DEPTNAME, D.MGRNO, M.FIRSTNME,M.MIDINIT, M.LASTNAME
 from DEV3.EMPLOYEE E, CP4D.DEPARTMENT D, DEV3.EMPLOYEE M 
 WHERE E.WORKDEPT = D.DEPTNO and D.MGRNO=M.EMPNO;
 
-select * from DVUC.BILLING_DB2WH;
+        ##### DB2 Warehouse Tables Locally
+        
+        select * from DVUC.BILLING_DB2WH;
 
-select * from DVUC.PRODUCTS_DB2WH;
+        select * from DVUC.PRODUCTS_DB2WH;
 
-select * from DVUC.CUSTOMER_SERVICE_DB2WH;
+        select * from DVUC.CUSTOMER_SERVICE_DB2WH;
 
-select B.*, P.* from DEV3.BILLING_DB2WH B, PRAVIN.PRODUCTS_DB2CLOUD P WHERE B.CUSTOMERID = P."customerID";
+        ##### DB2 Virtualize table join between DB2 WH on CP4D and DB2 WH on Cloud accounts
+        
+        select B.*, P.* from DEV3.BILLING_DB2WH B, PRAVIN.PRODUCTS_DB2CLOUD P WHERE B.CUSTOMERID = P."customerID";
 
 
 
