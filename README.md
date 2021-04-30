@@ -17,9 +17,7 @@ Use Instructions from DataVirtualization_DB2WH_DB2Cloud_VT_LAB2.docx file
 ##### DB2 Warehouse Tables Locally
         
         select * from DVUC.BILLING_DB2WH;
-
         select * from DVUC.PRODUCTS_DB2WH;
-
         select * from DVUC.CUSTOMER_SERVICE_DB2WH;
 
 ##### DB2 Virtualize table join between DB2 WH on CP4D and DB2 WH on Cloud accounts
