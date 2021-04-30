@@ -8,6 +8,10 @@ Use Instructions from DataVirtualization_DB2WH_DataLoad_LAB1.docx file
 
 Use Instructions from DataVirtualization_DB2WH_DB2Cloud_VT_LAB2.docx file
 
+#### Cache in Data Virtualization
+
+Use Instructions from DataVirtualization_Cache_LAB3.docx file
+
 #### Join tables to check the DV results
 
         select E.*,D.DEPTNAME, D.MGRNO, M.FIRSTNME,M.MIDINIT, M.LASTNAME 
@@ -25,5 +29,7 @@ Use Instructions from DataVirtualization_DB2WH_DB2Cloud_VT_LAB2.docx file
         select B.*, P.* from DEV3.BILLING_DB2WH B, PRAVIN.PRODUCTS_DB2CLOUD P WHERE B.CUSTOMERID = P."customerID";
 
         select B.CUSTOMERID, CONTRACT, PAPERLESSBILLING, PAYMENTMETHOD, MONTHLYCHARGES, TOTALCHARGES, CHURN, "PhoneService", "MultipleLines", "StreamingTV", "StreamingMovies" from DEV3.BILLING_DB2WH B, PRAVIN.PRODUCTS_DB2CLOUD P WHERE B.CUSTOMERID = P."customerID";
+        
+        select CUSTOMERID, CONTRACT, PAPERLESSBILLING, PAYMENTMETHOD, MONTHLYCHARGES, TOTALCHARGES, CHURN, "PhoneService", "MultipleLines", "StreamingTV", "StreamingMovies" from DEV3.BILLING_DB2WH , PRAVIN.PRODUCTS_DB2CLOUD  WHERE CUSTOMERID = "customerID";
 
 
